@@ -1,7 +1,10 @@
 # File Integrity Checker
 
-A Python tool that protects important files by checking if they have been changed, corrupted, or tampered with.  
-It uses secure hashing and digital signatures to verify file integrity.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Category](https://img.shields.io/badge/Cybersecurity-Tool-red)
+
+A Python tool that checks if files are modified, corrupted, or tampered with using hashing and digital signatures.
 
 ---
 
@@ -14,35 +17,45 @@ It uses secure hashing and digital signatures to verify file integrity.
 
 ---
 
+## Who Can Use This?
+
+- Students learning cybersecurity
+- Developers protecting sensitive project files
+- IT security teams monitoring system files
+- Anyone concerned about tampering and data integrity
+
+---
+
 ## How to Run
 
-Follow these simple steps:
+Follow these steps:
 
 1. Install Python 3.11 or above on your system.
-2. Open the project folder in a terminal or command prompt.
+2. Open the project folder in terminal / command prompt.
 3. Install required libraries:
     ```bash
     pip install -r requirements.txt
     ```
-4. Run the application:
+4. Start the application:
     ```bash
     python gui_fic.py
     ```
-5. The graphical interface will open. You can:
-   - Select a file
-   - Generate its hash and digital signature
-   - Save integrity records
-   - Verify anytime if the file is modified or safe
+
+The GUI will open and you can:
+- Select a file
+- Generate hash & digital signature
+- Save integrity records
+- Verify anytime if a file is modified or safe
 
 ---
 
 ## How It Works
 
-1. Select any file you want to protect
-2. The app generates a secure hash and signature for that file
-3. It stores these records safely
-4. Later, when you verify the file again, it compares the hash values
-5. If anything changed → it warns you
+1. Choose a file to protect  
+2. App generates its secure hash and signature  
+3. History is stored locally  
+4. When re-verified later, hashes are compared  
+5. If different → immediate alert  
 
 ---
 
@@ -50,8 +63,8 @@ Follow these simple steps:
 
 - `gui_fic.py` — Main graphical program
 - `hash_utils.py` — Hash and signature logic
-- `assets/` — UI icons and resources
-- `requirements.txt` — Required dependencies
+- `assets/` — UI icons and screenshots
+- `requirements.txt` — Dependencies list
 
 ---
 
@@ -61,3 +74,8 @@ Follow these simple steps:
 
 ![Main UI](assets/main_ui.png)
 
+---
+
+## Keywords
+
+Cybersecurity, File Integrity Tools, Hash Verification, Tamper Detection, Python Security
